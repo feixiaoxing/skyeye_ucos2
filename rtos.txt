@@ -1,5 +1,5 @@
 
-nvme_os:     file format elf32-littlearm
+rtos:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
