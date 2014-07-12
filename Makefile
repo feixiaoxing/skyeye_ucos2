@@ -24,4 +24,4 @@ rtos:$(OBJS)
 	$(OBJDUMP) -h -S -D rtos > rtos.txt
 
 clean:
-	rm *.o rtos rtos.bin -f
+	rm *.o rtos rtos.bin rtos.txt -f
