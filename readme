@@ -9,10 +9,10 @@ compiler: arm-linux-gcc 4.4.3
 
 emulator: skyeye 1.2.6
 
-compile step: make & skyeye -e nvme_os
+compile step: make & skyeye -e rtos
 
-debug: skyeye -e nvme_os -d
+debug: skyeye -e rtos -d
     
-       ./gdb nvme_os & target remote :12345 & c
+       ./gdb rtos & target remote :12345 & c
 
 
